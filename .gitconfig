@@ -1,0 +1,31 @@
+[user]
+	name = Kana Kuroyanagi
+	email = tkykk.0914@gmail.com
+
+[alias]
+    s = status --short --branch
+    l = log -n 15 --date=format:'%Y-%m-%d %H:%M' --graph --all --pretty='%x09%ad %<(7)%C(magenta)%h%C(reset) %C(yellow)%cn%C(reset) %s %Cred%d%>(20)%C(reset)'
+    ln = log -n 15 --date=format:'%Y-%m-%d %H:%M' --graph --all --pretty='%x09%ad %<(7)%C(magenta)%h%C(reset) %C(yellow)%cn%C(reset) %s %Cred%d%>(20)%C(reset)' --no-merges
+    cp = cherry-pick -x
+
+[commit]
+        template = ~/.commit_template
+[core]
+	editor = code --wait
+	excludesfile = /Users/kanakuroyanagi/.gitignore_global
+[merge]
+        tool = vscode
+[mergetool]
+        prompt = false
+        keepBackup = false
+[mergetool "vscode"]
+        # cmd = 'VSCodeのパス' \"$MERGED\"
+        # 例：Macの場合
+        cmd = '/Applications/Visual Studio Code.app/Contents/Resources/app/bin/code' \"$MERGED\"
+        trustExitCode = false
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true

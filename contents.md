@@ -10,21 +10,7 @@
 - Docker
 - Angular Language Service
 
-# forMac
-
-## procedure
-
-1. [Homebrew](https://brew.sh/index_ja) をインストール
-2. `brew install rcmdnk/file/brew-file`
-3. `mkdir -p ~/.config/brewfile`
-4. `vim ~/.config/brewfile/Brewfile` で当リポジトリの Brewfile をコピペ
-5. `brew file install`
-
-## インストールが終わったら
-
-1. `mkdir -p ~/dev/{bin,src,pkg}`
-2. 環境変数 `GOPATH` を `~/dev/` に設定
-3. ESET インストール
+# forPC
 
 ## Brewfilestap caskroom/fonts
 
