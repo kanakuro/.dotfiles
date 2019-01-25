@@ -1,6 +1,6 @@
-[user]
-	name = Kana Kuroyanagi
-	email = tkykk.0914@gmail.com
+[user]  # TODO: input
+	name = 
+	email = 
 
 [alias]
     s = status --short --branch
@@ -9,10 +9,10 @@
     cp = cherry-pick -x
 
 [commit]
-        template = ~/.commit_template
-[core]
+        template = ~/.dotfiles/.commit_template
+[core] 
 	editor = code --wait
-	excludesfile = /Users/kanakuroyanagi/.gitignore_global
+	excludesfile = ~/.gitignore_global
 [merge]
         tool = vscode
 [mergetool]
