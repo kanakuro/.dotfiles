@@ -7,6 +7,8 @@ cask pgadmin4
 cask tunnelblick
 cask appium
 cask docker
+cask evernote
+cask lastpass
 cask vagrant
 cask owncloud
 cask firefox
