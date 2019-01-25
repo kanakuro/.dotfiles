@@ -14,7 +14,7 @@ setup MacPC
 
 # after install
 
-1. arrange directories
-2. 環境変数 `GOPATH` を設定
-3. security soft インストール
-4. set gitHub sshKeys
+1. `mkdir ~/dev`
+2. security soft インストール
+3. set gitHub sshKeys
+4. .gitconfigのTODOを埋める
