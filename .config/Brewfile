@@ -1,14 +1,9 @@
 tap caskroom/fonts
 cask slack
-cask fritzing
 cask visual-studio-code
 cask appcleaner
-cask pgadmin4
 cask tunnelblick
-cask appium
 cask docker
-cask evernote
-cask lastpass
 cask vagrant
 cask owncloud
 cask firefox
@@ -16,7 +11,6 @@ cask google-chrome
 cask expo-xde
 cask xquartz
 cask google-japanese-ime
-cask disk-inventory-x
 cask java
 cask yed
 cask sourcetree
@@ -25,6 +19,8 @@ cask mysqlworkbench
 cask font-noto-sans-cjk-jp
 cask font-noto-serif-cjk-jp
 cask mute-me
+cask teamsql
+cask dbeaver-community
 brew adns
 brew ansible
 brew autoconf
@@ -68,7 +64,7 @@ brew go
 brew gobject-introspection
 brew gradle
 brew graphite2
-brew graphviz
+brew graphviz --with-librsvg --with-pango
 brew harfbuzz
 brew htop
 brew icu4c
