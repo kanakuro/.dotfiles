@@ -31,7 +31,7 @@ homedirectory
 1. [i] -> [Command]+[v] -> [ESC] -> [:][w][q]
 1. brew file install
 1. go get -u golang.org/x/tools/...
-1. OpenVPN接続（南に鍵ファイルもらう）
+1. OpenVPN接続
 1. .gitconfig に以下追記(プライベートリポジトリからのgo get対策)
 [url "git@github.com:"]
     insteadOf = https://github.com/
